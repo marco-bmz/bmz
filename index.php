@@ -188,7 +188,7 @@
                 firstScript.parentNode.insertBefore(scriptElement, firstScript)
             }(window, document, 'ga'));
 
-            ga('create', 'UA-');
+            ga('create', 'UA-82253065-1', 'auto');
             ga('send', 'pageview');
             ga('set', 'anonymizeIp', true);
         </script>
