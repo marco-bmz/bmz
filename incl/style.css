@@ -1,0 +1,299 @@
+html {
+    box-sizing: border-box
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit
+}
+
+body {
+    width: 100%;
+    height: auto!important;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    font: 1.1em/1.4 /*Georgia, Times, "Times New Roman", serif, */"Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #fafafa
+}
+
+
+header {
+    width: 100%;
+    height: auto;
+    min-height: 5em;
+    background-color: rgba(0, 60, 113, 0.25)
+}
+header .header {
+    position: fixed;
+    top: 2.6em;
+    left: 6.4em;
+    font-size: 100%;
+    z-index: 1
+}
+
+
+#main {
+    display: block;
+    width: 100%;
+    height: auto;
+    -moz-hyphens: auto;
+    -o-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    hyphenate-limit-chars: auto 5;
+    hyphenate-limit-lines: 2
+}
+
+#seite1 #navi a.seite1 section,
+#seite2 #navi a.seite2 section,
+#seite3 #navi a.seite3 section,
+#seite4 #navi a.seite4 section,
+#seite5 #navi a.seite5 section,
+#seite6 #navi a.seite6 section {
+    color: blue
+}
+
+    .navMain,
+    #content {
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -ms-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out
+    }
+    .navMain {
+        width: 70%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: -70%;
+        z-index: 20;
+        background-color: rgba(0, 0, 0, 0.5)
+    }
+    .navMain article {
+        padding: .5em;
+        background: transparent
+    }
+    .navMain article section {
+        border: solid 1px #000;
+        padding: .2em;
+        margin-bottom: .4em;
+        font-size: 1.5em;
+        background-color: #d4d4d4
+    }
+    #navi a {
+        text-decoration: none
+    }
+    .navMain article section:hover {
+        color: red
+    }
+    #content {
+        position: fixed;
+        top: 25px;
+        left: 15px;
+        z-index: 10
+    }
+@media screen and (min-width: 750px) {
+    #content {
+        left: 35px
+    }
+}
+
+    #openBtn,
+    #closeBtn {
+        padding: 0 12px;
+        text-decoration: none;
+        border-radius: 25%;
+        background: #e3e3e3;
+        color: #585858;
+        font-size: 3em;
+        font-weight: 600;
+        border: solid .1em #585858;
+        line-height: 1em
+    }
+    #openBtn {
+        display: block
+    }
+    #closeBtn {
+        display: none;
+        padding-top: .1em
+        
+    }
+    #openNav:target .navMain {
+        right: 0
+    }
+    #openNav:target #content {
+        position: fixed
+    }
+    #openNav:target #openBtn {
+        display: none
+    }
+    #openNav:target #closeBtn {
+        display: block;
+        padding-bottom: 5px;
+        color: rgba(255, 255, 255, 1);
+        background: rgba(0, 0, 0, 0.7);
+        border: solid 4px #fff;
+        /*
+        -moz-transform: scale(1.3) rotate(90deg);
+        -webkit-transform: scale(1.3) rotate(90deg);
+        -o-transform: scale(1.3) rotate(90deg);
+        -ms-transform: scale(1.3) rotate(90deg);
+        transform: scale(1.3) rotate(90deg)
+        */
+    }
+
+.main1 h1 {
+    font-size: 1.6em
+}
+
+@media screen and (min-width: 920px) {
+    .main1 h1 {
+        font-size: 2em
+    }
+}
+
+.main1,
+.main2 {
+    display: block;
+    width: 100%;
+    min-height: 90vh;
+    text-align: center
+}
+
+.main1 {
+    background-image: url();
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-position: center;
+    background-size: cover
+}
+
+.main2 {
+    background-color: transparent
+}
+
+.main2.content1 {
+    background-color: rgba(0, 60, 113, 0.25)
+}
+.main1 section,
+.main2 section {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 4% auto;
+    padding: 1%;
+    text-align: center
+}
+
+.main1 section a,
+.main2 section a {
+    color: white;
+    line-height: 2.5em;
+    background-color: transparent;
+    padding: .4em .3em;
+    border-radius: .2em;
+    box-shadow: .4em .1em .5em .1em #4c4948
+}
+
+.main1 section a:hover,
+.main2 section a:hover {
+    color: darkgrey;
+    background-color: #000
+}
+
+.main1 section {
+    
+}
+
+.main2 section {
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .main1 section,
+    .main2 section {
+        display: block;
+        margin: 0 auto;
+        padding: 2%;
+        width: 98%;
+        height: auto
+    }
+}
+
+.construction {
+    font-size: 3em;
+    text-align: center;
+    color: #ff4500;
+    max-width: 100%
+}
+
+footer {
+    background-color: #ebebeb;
+    display: block;
+    width: 100%;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: .4em .1em .5em .1em #4c4948
+}
+
+footer article section {
+    display: inline-block;
+    margin-bottom: 5%;
+    min-width: 280px;
+    font-size: 1.2em;
+    font-weight: 800
+}
+
+footer article section a {
+    color: #272727;
+    line-height: 2.5em;
+    background-color: transparent;
+    padding: .4em .3em;
+    border-radius: 1.2em;
+    box-shadow: .4em .1em .5em .1em #4c4948
+}
+
+footer article section a:hover {
+    color: dimgrey;
+    background-color: #272727
+}
+
+footer a {
+    text-decoration: none
+}
+
+.back-to-top {
+    font-size: 150%;
+    color: dimgrey;
+    background-color: #F0F0F0;
+    font-weight: 900;
+    padding: .05em 0;
+    margin: 0 2% 5%;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    box-shadow: 0 .05em .1em #6d848e, 0 .4em 0 #C0C0C0, 0 .56em .7em rgba(0, 0, 0, 0.4), 0 .5em .56em rgba(255, 255, 255, 0.2) inset, 0 -.2em .56em rgba(0, 0, 0, 0.2) inset;
+    border-radius: 1.2em .3em 1.2em .3em;
+    text-shadow: silver .2em .2em .2em
+}
+
+.back-to-top:hover {
+    background-color: black;
+    color: dimgrey
+}
+
+@media screen and (max-width: 1024px) {
+    .back-to-top {
+        margin: 0 2% 6%;
+        font-size: 190%;
+        font-weight: 700
+    }
+    footer article section {
+        display: block
+    }
+}

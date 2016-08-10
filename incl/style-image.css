@@ -1,0 +1,201 @@
+.block {
+  width: 10%;
+  height: 300px;
+  display: inline-block;
+  background-color: background-color: rgba(0, 60, 113, 0.25);
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: width .5s ease-in-out, background-color .5s ease-in-out;
+  -moz-transition: width .5s ease-in-out, background-color .5s ease-in-out;
+  -ms-transition: width .5s ease-in-out, background-color .5s ease-in-out;
+  -o-transition: width .5s ease-in-out, background-color .5s ease-in-out;
+  transition: width .5s ease-in-out, background-color .5s ease-in-out;
+  text-align: center;
+}
+
+.block:hover {
+  background-color: #2274A5;
+  width: 30%;
+  -webkit-transition: width .5s ease-in-out, background-color .5s ease-in-out;
+  -moz-transition: width .5s ease-in-out, background-color .5s ease-in-out;
+  -ms-transition: width .5s ease-in-out, background-color .5s ease-in-out;
+  -o-transition: width .5s ease-in-out, background-color .5s ease-in-out;
+  transition: width .5s ease-in-out, background-color .5s ease-in-out;
+}
+
+.block:hover .img-p {
+  opacity: 1;
+  -webkit-transition: opacity .5s .51s ease-in-out;
+  -moz-transition: opacity .5s .51s ease-in-out;
+  -ms-transition: opacity .5s .51s ease-in-out;
+  -o-transition: opacity .5s .51s ease-in-out;
+  transition: opacity .5s .51s ease-in-out;
+}
+
+.block:hover .layer {
+  opacity: .5;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -ms-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+}
+
+.layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.img-p {
+  position: absolute;
+  font-size: 16px;
+  opacity: 0;
+  color: #FFF;
+  text-align: left;
+  line-height: 1.6em;
+}
+
+.p-container {
+  width: 80%;
+  position: relative;
+  top: 35%;
+  margin-left: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image1 {
+  background-image: url(pic/bmz-halbe-haeuser-00.jpg);
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center
+}
+
+.image2 {
+  background-image: url(pic/Seminarraum.JPG);
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.image3 {
+  background-image: url(pic/bauherrenhandbuch.jpg);
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.image4 {
+  background-image: url(pic/cad-kueche-mit-kochinsel.jpg);
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 769px) {
+
+.block {
+  width: 100%;
+  height: 200px;
+  -webkit-transition: height .5s ease-in-out;
+  -moz-transition: height .5s ease-in-out;
+  -ms-transition: height .5s ease-in-out;
+  -o-transition: height .5s ease-in-out;
+  transition: height .5s ease-in-out;
+}
+
+
+.block:hover {
+  width: 100%;
+  height: 400px;
+  -webkit-transition: height .5s ease-in-out;
+  -moz-transition: height .5s ease-in-out;
+  -ms-transition: height .5s ease-in-out;
+  -o-transition: height .5s ease-in-out;
+  transition: height .5s ease-in-out;
+}
+}
+
+@media (min-width: 767px) {
+
+.block { 
+    width: 21%;
+    height: 450px;
+    }
+
+}
+/*
+@media (min-width: 992px) {
+
+.block { width: 20%; }
+
+}
