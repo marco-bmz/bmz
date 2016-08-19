@@ -137,7 +137,41 @@
 
 
 
+.image5 {
+  background-image: url(pic/00-Kamera-2-Aquarell.jpg);
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center
+}
 
+.image6 {
+  background-image: url(pic/02-Kamera-2-Aquarell.jpg);
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.image7 {
+  background-image: url(pic/03-Kamera-9-Aquarell.jpg);
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.image8 {
+  background-image: url(pic/02-Kamera-1-Aquarell.jpg);
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
 
 

@@ -74,10 +74,10 @@
   <article id="navi">
 
     <a href="index.php" title="" class="seite1"><section>Home</section></a>
-    <a href="#" title="" class="seite2"><section>Ausstellung</section></a>
-    <a href="#" title="" class="seite3"><section>Seminare</section></a>
-    <a href="#" title="" class="seite4"><section>Wissen</section></a>
-    <a href="#" title="" class="seite5"><section>Imagine Rooms</section></a>
+    <a href="#ausstellung" title="" class="seite2"><section>Ausstellung</section></a>
+    <a href="#seminare" title="" class="seite3"><section>Seminare</section></a>
+    <a href="#wissen" title="" class="seite4"><section>Wissen</section></a>
+    <a href="#raumplanung" title="" class="seite5"><section>Raumplanung</section></a>
 
   </article>
   </nav>
@@ -129,10 +129,43 @@
             <div class="block image4">
               <div class="layer"></div>
               <div class="p-container">
-                 <p class="img-p"><a href="#imagine-rooms">Imagine Rooms</a></p>
+                 <p class="img-p"><a href="#raumplanung">Raumplanung</a></p>
                </div>
             </div>
         </section>
+        
+        
+        <section>
+            <div class="block image5">
+              <div class="layer"></div>
+              <div class="p-container">
+                 <p class="img-p"><a href="#ausstellung">Die Ausstellung im Bau-Medien-Zentrum Düren</a></p>
+               </div>
+            </div>
+
+            <div class="block image6">
+              <div class="layer"></div>
+              <div class="p-container">
+                 <p class="img-p"><a href="#seminare">Seminare<br>Hier wird Wissen praktisch vermittelt</a></p>
+               </div>
+            </div>
+
+            <div class="block image7">
+              <div class="layer"></div>
+              <div class="p-container">
+                 <p class="img-p"><a href="#wissen">Wissen</a></p>
+               </div>
+            </div>
+            
+            <div class="block image8">
+              <div class="layer"></div>
+              <div class="p-container">
+                 <p class="img-p"><a href="#raumplanung">Raumplanung</a></p>
+               </div>
+            </div>
+        </section>
+        
+        
     </article>
         
     <article class="main2 content1">
@@ -152,7 +185,7 @@
     </article>
     <article class="main2">
         <section>
-            <h1 id="imagine-rooms">Imagine Rooms</h1>
+            <h1 id="raumplanung">Raumplanung</h1>
         </section>
     </article>
 </section>
