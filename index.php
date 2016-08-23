@@ -133,6 +133,29 @@
                </div>
             </div>
         </section>
+        <section id="bt-txt-1">
+            <div class="txt-bt">Ausstellung</div>
+            <div class="txt-bt">Seminare</div>
+            <div class="txt-bt">Wissen</div>
+            <div class="txt-bt">Raumplanung</div>
+        </section>
+        <style>
+            @media (min-width: 1024px) {
+                #bt-txt-1 {
+                display: none;
+                margin-top: -5em
+            }
+            .txt-bt {
+                display: inline-block;
+                font-size: 1.5em;
+                margin: 0 13% 0 3%;
+            }
+            }
+            #bt-txt-1 {
+                display: block;
+                margin-top: -5em
+            }
+        </style>
         
         
         <section>
