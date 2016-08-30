@@ -89,9 +89,11 @@
     <a href="#closeNav" title="Hier kann die Navigation geschlossen werden" id="closeBtn">X</a><!--&#x2261;-->
   </div>
 <!-- Hier endet der Bereich für den Menübutton -->
+<!-- Hier beginnt der Bereich für Logo -->
 	<div id="headImg" align="center">
 		<img src="pic/logo_bmz.png">	
 	</div>
+<!-- Hier endet der Bereich für Logo -->
 <!-- NAVIGATION ENDE--><!-- NAVIGATION ENDE-->
 <!-- NAVIGATION ENDE--><!-- NAVIGATION ENDE-->
     
