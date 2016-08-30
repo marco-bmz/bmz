@@ -89,12 +89,13 @@
     <a href="#closeNav" title="Hier kann die Navigation geschlossen werden" id="closeBtn">X</a><!--&#x2261;-->
   </div>
 <!-- Hier endet der Bereich für den Menübutton -->
-
+	<div id="headImg" align="center">
+		<img src="pic/logo_bmz.png">	
+	</div>
 <!-- NAVIGATION ENDE--><!-- NAVIGATION ENDE-->
 <!-- NAVIGATION ENDE--><!-- NAVIGATION ENDE-->
     
     <section class="header">
-        Bau-Medien-Zentrum
     </section>
 </header>
 
