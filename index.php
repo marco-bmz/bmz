@@ -108,7 +108,7 @@
             <div class="block image1">
               <div class="layer"></div>
               <div class="p-container">
-                 <p class="img-p"><a href="#ausstellung">Die Ausstellung im Bau-Medien-Zentrum Düren</a></p>
+                 <p class="img-p"><a href="#sprungmarke-ausstellung">Die Ausstellung im Bau-Medien-Zentrum Düren</a></p>
                </div>
             </div>
 
@@ -192,8 +192,39 @@
     </article>
         
     <article class="main2 content1">
-        <section>
+        <section id="sprungmarke-ausstellung">
             <h1 id="ausstellung">Die Ausstellung</h1>
+            <div class="content">
+                <div class="pic"><img src="pic/bmz-halbe-haeuser-00.jpg"></div>
+                <div class="txt">Das Bau-Medien-Zentrum ist eine Ausstellungen, die aus „ganzen, halben Häusern“ im Maßstab 1:1 besteht.Hier werden Baufehler und Ihre Vermeidung für Baufachleute und Laien erklärt.Themen wie Wärmedämmung/sommerlicher Wärmeschutz werden genauso behandelt wie Barrierearmut, Sicherheit, Smart-home, etc. und betrachten die Punkte der nötigen Zusammenarbeit der Gewerke - dort wo z.B. Auβenwand und Dach aufeinander treffen.</div>
+            </div>
+            <style>
+                #ausstellung {
+                    vertical-align: middle;
+                    margin: 10% 0 0 0;
+                }
+                .content {
+                    display: block;
+                    margin-top: 5%
+                }
+                .content .pic  {
+                    display: inline-block;
+                    width: 25%;
+                    height: auto;
+                    vertical-align: middle;
+                }
+                .content .pic img {
+                    width: 50%;
+                    height: 13em;
+                    border-radius: 50%
+                }
+                .content .txt {
+                    display: inline-block;
+                    width: 30%;
+                    height: auto;
+                    vertical-align: middle
+                }
+            </style>
         </section>
     </article>
     <article class="main2">
