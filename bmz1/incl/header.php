@@ -1,9 +1,6 @@
 <header id="head" class="sticky">
     <a href="index.php" title="zurück zur Homepage">
-    <picture alt="">
-        <source media="(min-width: 750px)" srcset="home/pic/header-logo-300.png" type="image/png" title="Das Logo zur Seite www.visitenkarte-online.net - zurück zur Homepage">
-        <img src="home/pic/header-logo-150.png" width="150" height="150" alt="Das Logo zur Seite www.visitenkarte-online.net - zurück zur Homepage" title="Das Logo zur Seite - zurück zur Homepage">
-    </picture>
+   
     </a>
 <!-- NAVIGATION ANFANG--><!-- NAVIGATION ANFANG-->
 <!-- NAVIGATION ANFANG--><!-- NAVIGATION ANFANG-->
