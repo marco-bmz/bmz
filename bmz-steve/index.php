@@ -74,7 +74,7 @@
   <article id="navi">
 
     <a href="index.php" title="" class="seite1"><section>Home</section></a>
-    <a href="#sprungmarke-ausstellung" title="" class="seite2"><section>Ausstellung</section></a>
+    <a href="#ausstellung" title="" class="seite2"><section>Ausstellung</section></a>
     <a href="#seminare" title="" class="seite3"><section>Seminare</section></a>
     <a href="#wissen" title="" class="seite4"><section>Wissen</section></a>
     <a href="#raumplanung" title="" class="seite5"><section>Raumplanung</section></a>
@@ -89,12 +89,15 @@
     <a href="#closeNav" title="Hier kann die Navigation geschlossen werden" id="closeBtn">X</a><!--&#x2261;-->
   </div>
 <!-- Hier endet der Bereich für den Menübutton -->
-
+<!-- Hier beginnt der Bereich für Logo -->
+	<div id="headImg" align="center">
+		<img src="pic/logo_bmz.png">	
+	</div>
+<!-- Hier endet der Bereich für Logo -->
 <!-- NAVIGATION ENDE--><!-- NAVIGATION ENDE-->
 <!-- NAVIGATION ENDE--><!-- NAVIGATION ENDE-->
     
     <section class="header">
-        Bau-Medien-Zentrum
     </section>
 </header>
 
@@ -108,7 +111,7 @@
             <div class="block image1">
               <div class="layer"></div>
               <div class="p-container">
-                 <p class="img-p"><a href="#sprungmarke-ausstellung">Die Ausstellung im Bau-Medien-Zentrum Düren</a></p>
+                 <p class="img-p"><a href="#ausstellung">Die Ausstellung im Bau-Medien-Zentrum Düren</a></p>
                </div>
             </div>
 
@@ -133,59 +136,13 @@
                </div>
             </div>
         </section>
-        <section id="bt-txt-1">
-            <div class="txt-bt">Ausstellung</div>
-            <div class="txt-bt">Seminare</div>
-            <div class="txt-bt">Wissen</div>
-            <div class="txt-bt">Raumplanung</div>
-        </section>
-        <style>
-            @media (min-width: 1024px) {
-                #bt-txt-1 {
-                display: none;
-                margin-top: -5em
-            }
-            .txt-bt {
-                display: inline-block;
-                font-size: 1.5em;
-                margin: 0 13% 0 3%;
-            }
-            }
-            #bt-txt-1 {
-                display: block;
-                margin-top: -5em
-            }
-        </style>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         
-        <section id="bt-txt-1">
-            <div class="txt-bt">Ausstellung</div>
-            <div class="txt-bt">Seminare</div>
-            <div class="txt-bt">Wissen</div>
-            <div class="txt-bt">Raumplanung</div>
-        </section>
-        <style>
-            @media (min-width: 1024px) {
-                #bt-txt-1 {
-                display: none;
-                margin-top: -5em
-            }
-            .txt-bt {
-                display: inline-block;
-                font-size: 1.5em;
-                margin: 0 13% 0 3%;
-            }
-            }
-            #bt-txt-1 {
-                display: block;
-                margin-bottom: -5em
-            }
-        </style>
+        
         <section>
             <div class="block image5">
               <div class="layer"></div>
               <div class="p-container">
-                 <p class="img-p"><a href="#sprungmarke-ausstellung">Die Ausstellung im Bau-Medien-Zentrum Düren</a></p>
+                 <p class="img-p"><a href="#ausstellung">Die Ausstellung im Bau-Medien-Zentrum Düren</a></p>
                </div>
             </div>
 
@@ -210,89 +167,13 @@
                </div>
             </div>
         </section>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        
-        <section>
-            <div class="block image10">
-              <div class="layer"></div>
-              <div class="p-container">
-                 <p class="img-p"><a href="#sprungmarke-ausstellung">Die Ausstellung im Bau-Medien-Zentrum Düren</a></p>
-               </div>
-            </div>
-
-            <div class="block image11">
-              <div class="layer"></div>
-              <div class="p-container">
-                 <p class="img-p"><a href="#seminare">Seminare<br>Hier wird Wissen praktisch vermittelt</a></p>
-               </div>
-            </div>
-
-            <div class="block image12">
-              <div class="layer"></div>
-              <div class="p-container">
-                 <p class="img-p"><a href="#wissen">Wissen</a></p>
-               </div>
-            </div>
-            
-            <div class="block image13">
-              <div class="layer"></div>
-              <div class="p-container">
-                 <p class="img-p"><a href="#raumplanung">Raumplanung</a></p>
-               </div>
-            </div>
-        </section>
         
         
     </article>
         
     <article class="main2 content1">
-        <section id="sprungmarke-ausstellung">
+        <section>
             <h1 id="ausstellung">Die Ausstellung</h1>
-            <div class="content">
-                <div class="pic"><img src="pic/00-Kamera-2-Aquarell.jpg" alt="#" title="Die Ausstellung des Bau-Medien-Zentrum"></div>
-                <div class="txt">Das Bau-Medien-Zentrum ist eine Ausstellung, die aus „ganzen, halben Häusern“ im Maßstab 1:1 besteht.Hier werden Baufehler und Ihre Vermeidung für Baufachleute und Laien erklärt.Themen wie Wärmedämmung/sommerlicher Wärmeschutz werden genauso behandelt wie Barrierearmut, Sicherheit, Smart-home, etc. und betrachten die Punkte der nötigen Zusammenarbeit der Gewerke - dort wo z.B. Auβenwand und Dach aufeinander treffen.</div>
-                <div class="mehr-bt">
-                    <a href="#" title="Hier erfahren Sie mehr über die Ausstellung">></a>
-                </div>
-            </div>
-            <style>
-                #ausstellung {
-                    vertical-align: middle;
-                    margin: 10% 0 0 0;
-                }
-                .content {
-                    display: block;
-                    margin-top: 5%
-                }
-                .content .pic  {
-                    display: inline-block;
-                    width: 25%;
-                    height: auto;
-                    vertical-align: middle;
-                }
-                .content .pic img {
-                    width: 90%;
-                    height: auto;
-                    margin-right: 3em;
-                }
-                .content .txt {
-                    display: inline-block;
-                    width: 40%;
-                    height: auto;
-                    text-align: justify;
-                    vertical-align: middle
-                }
-                .mehr-bt {
-                    display: inline-block;
-                    width: 8%;
-                    margin: 0 0 0 2em
-                }
-                .mehr-bt a {
-                    text-decoration: none;
-                    font-size: 3em;
-                    color: black
-                }
-            </style>
         </section>
     </article>
     <article class="main2">

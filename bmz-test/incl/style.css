@@ -1,0 +1,210 @@
+html {
+    box-sizing: border-box
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit
+}
+
+body {
+    width: 100%;
+    height: auto!important;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    font: 1.1em/1.4 /*Georgia, Times, "Times New Roman", serif, */"Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.05)
+}
+
+header {
+    
+}
+
+@media screen and (min-width: 750px) {
+    
+}
+
+
+#main {
+    display: block;
+    width: 100%;
+    height: auto;
+    -moz-hyphens: auto;
+    -o-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    hyphenate-limit-chars: auto 5;
+    hyphenate-limit-lines: 2
+}
+
+
+/*
+#seite1 #navi a.seite1 section,
+#seite2 #navi a.seite2 section,
+#seite3 #navi a.seite3 section,
+#seite4 #navi a.seite4 section,
+#seite5 #navi a.seite5 section,
+#seite6 #navi a.seite6 section {
+    color: rgba(85, 82, 82, 0.82)
+}
+
+    .navMain,
+    #content {
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -ms-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out
+    }
+    .navMain {
+        width: 60%;
+        height: 65vh;
+        position: fixed;
+        bottom: 0;
+        left: -100%;
+        z-index: 20;
+        background-color: rgba(46, 46, 46, 0.45)
+    }
+    .navMain article {
+        padding: .5em;
+        background: transparent
+    }
+    .navMain article section {
+        border-top: solid 1px #000;
+        padding: .2em;
+        margin-bottom: .4em;
+        font-size: 1.5em;
+        color: rgba(255, 255, 255, 0.84)
+    }
+    #navi a {
+        text-decoration: none
+    }
+    .navMain article section:hover {
+        color: rgba(0, 46, 149, 0.92)
+    }
+    #content {
+        position: absolute; 
+        top: 10px;
+        left: 10px;
+        z-index: 21
+    }
+@media screen and (min-width: 750px) {
+    #content {
+        left: 35px
+    }
+    .navMain {
+        width: 25%;
+        height: 80vh
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #content {
+        top: 20px;
+        left: 35px
+    }
+    .navMain {
+        width: 15%;
+        height: 85vh
+    }
+}
+
+    #openBtn,
+    #closeBtn {
+        padding: 0 12px;
+        text-decoration: none;
+        border-radius: 25%;
+        background: #e3e3e3;
+        color: #585858;
+        font-size: 3em;
+        font-weight: 600;
+        border: solid .1em #585858;
+        box-shadow: 4px 4px 5px 0px #585858;
+        line-height: 1em
+    }
+
+    #openBtn:hover {
+    background-color: rgba(0, 46, 149, 0.74);
+    color: rgba(255, 255, 255, 0.84)
+}
+
+    #openBtn {
+        display: block
+    }
+    #closeBtn {
+        display: none;
+        padding-top: .1em
+        
+    }
+    #openNav:target .navMain {
+        left: 0
+    }
+    #openNav:target #content {
+        position: fixed
+    }
+    #openNav:target #openBtn {
+        display: none
+    }
+    #openNav:target #closeBtn {
+        display: block;
+        padding-bottom: 5px;
+        color: rgba(255, 255, 255, 1);
+        background: rgba(0, 0, 0, 0.7);
+        border: solid 4px #fff;
+        /*
+        -moz-transform: scale(1.3) rotate(90deg);
+        -webkit-transform: scale(1.3) rotate(90deg);
+        -o-transform: scale(1.3) rotate(90deg);
+        -ms-transform: scale(1.3) rotate(90deg);
+        transform: scale(1.3) rotate(90deg)
+        */
+    }
+
+.main1 h1 {
+    font-size: 1.6em
+}
+
+@media screen and (min-width: 920px) {
+
+}
+
+
+
+footer {
+    background-color: #ebebeb;
+    display: block;
+    width: 100%;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: .4em .1em .5em .1em #4c4948
+}
+
+footer article section {
+    display: inline-block;
+    margin-bottom: 5%;
+    min-width: 280px;
+    font-size: 1.2em;
+    font-weight: 800
+}
+
+footer article section a {
+    color: #272727;
+    line-height: 2.5em;
+    background-color: transparent;
+    padding: .4em .3em;
+    border-radius: 1.2em;
+    box-shadow: .4em .1em .5em .1em #4c4948
+}
+
+footer article section a:hover {
+    color: dimgrey;
+    background-color: #272727
+}
+
+footer a {
+    text-decoration: none
+}

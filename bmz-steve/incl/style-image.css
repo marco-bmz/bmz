@@ -1,5 +1,5 @@
 .block {
-  width: 21%;
+  width: 10%;
   height: 300px;
   display: inline-block;
   background-color: background-color: rgba(0, 60, 113, 0.25);
@@ -95,7 +95,7 @@
 
 
 .image1 {
-  background-image: url(pic/00-Kamera-2-Aquarell.jpg);
+  background-image: url(pic/01-Kamera-2-Aquarell.jpg);
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -122,7 +122,7 @@
 }
 
 .image4 {
-  background-image: url(pic/02-Kamera-1-Aquarell.jpg);
+  background-image: url(pic/04-Kamera-9-Aquarell.jpg);
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -179,41 +179,6 @@
 
 
 
-.image10 {
-  background-image: url(pic/00-Kamera-2-Aquarell.jpg);
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center
-}
-
-.image11 {
-  background-image: url(pic/02-Kamera-2-Aquarell.jpg);
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.image12 {
-  background-image: url(pic/03-Kamera-9-Aquarell.jpg);
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.image13 {
-  background-image: url(pic/02-Kamera-1-Aquarell.jpg);
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
 
 
 
@@ -229,7 +194,8 @@
 
 
 
-@media (max-width: 1024px) {
+
+@media (max-width: 769px) {
 
 .block {
   width: 100%;
@@ -252,7 +218,7 @@
   transition: height .5s ease-in-out;
 }
 }
-/*
+
 @media (min-width: 767px) {
 
 .block { 
@@ -261,7 +227,6 @@
     }
 
 }
-
 /*
 @media (min-width: 992px) {
 

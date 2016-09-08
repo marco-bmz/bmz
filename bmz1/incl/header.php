@@ -1,9 +1,6 @@
 <header id="head" class="sticky">
     <a href="index.php" title="zurück zur Homepage">
-    <picture alt="">
-        <source media="(min-width: 750px)" srcset="home/pic/header-logo-300.png" type="image/png" title="">
-        <img src="home/pic/header-logo-150.png" width="150" height="150" alt="" title="">
-    </picture>
+   
     </a>
 <!-- NAVIGATION ANFANG--><!-- NAVIGATION ANFANG-->
 <!-- NAVIGATION ANFANG--><!-- NAVIGATION ANFANG-->
