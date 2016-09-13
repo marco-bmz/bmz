@@ -39,7 +39,7 @@
 <meta name="geo.placename" content="D&uuml;ren" />
 <meta name="geo.position" content="50.804;6.45304" />
 <meta name="ICBM" content="50.804, 6.45304" />
-
+<link rel="stylesheet" href="incl/animate.min.css">
 
 <style type="text/css">
     <?php include "incl/style-min.css";?>
@@ -90,8 +90,8 @@
   </div>
 <!-- Hier endet der Bereich für den Menübutton -->
 <!-- Hier beginnt der Bereich für Logo -->
-	<div id="headImg" align="center">
-		<img src="pic/logo_bmz.png">	
+	<div id="headImg" align="center" class="container bounce animated">
+		<img src="pic/BMZ Logo-lang.png">	
 	</div>
 <!-- Hier endet der Bereich für Logo -->
 <!-- NAVIGATION ENDE--><!-- NAVIGATION ENDE-->

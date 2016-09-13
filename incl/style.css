@@ -24,7 +24,8 @@ header {
     width: 100%;
     height: auto;
     min-height: 5em;
-    background-color: rgba(0, 60, 113, 0.25)
+    background-color: rgba(0, 60, 113, 0.25);
+		position: fixed;
 }
 header .header {
     position: fixed;
